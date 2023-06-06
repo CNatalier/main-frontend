@@ -1,0 +1,80 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+  {
+  	"path": "pages/zaizai-login/index",
+  	"style": {
+  		"navigationBarTitleText": ""
+  	}
+  },
+		{
+			"path": "pages/zaizai-register/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/zaizai-checking/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+{
+            "path" : "pages/tabbar/gogogo/gogogo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/tabbar/game/game",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/tabbar/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+   "tabBar": {
+      "color": "#999999",
+      "selectedColor": "#007AFF",
+      "backgroundColor": "#ffffff",
+      "borderStyle": "black",
+      "list": [
+        {
+          "pagePath": "pages/tabbar/gogogo/gogogo",
+          "text": "出行服务",
+          "iconPath": "static/tab_icons/home.png",
+          "selectedIconPath": "static/tab_icons/home-active.png"
+        },
+        {
+          "pagePath": "pages/tabbar/game/game",
+          "text": "特色功能",
+          "iconPath": "static/tab_icons/cate.png",
+          "selectedIconPath": "static/tab_icons/cate-active.png"
+        },
+        {
+          "pagePath": "pages/tabbar/home/home",
+          "text": "个人中心",
+          "iconPath": "static/tab_icons/my.png",
+          "selectedIconPath": "static/tab_icons/my-active.png"
+        }
+      ]
+    }
+
+}
